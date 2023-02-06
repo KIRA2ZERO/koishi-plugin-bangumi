@@ -1,0 +1,36 @@
+{
+  "name": "koishi-plugin-bangumi",
+  "description": "获取bangumi的排行榜信息",
+  "version": "1.0.0",
+  "contributors": [
+    "KIRA <914489374@qq.com>"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/KIRA2ZERO/koishi-plugin-bangumi",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/KIRA2ZERO/koishi-plugin-bangumi.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "bangumi"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.3"
+  },
+  "devDependencies": {
+    "koishi": "^4.11.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
